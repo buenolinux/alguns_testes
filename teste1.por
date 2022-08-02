@@ -29,7 +29,7 @@ inteiro vetNumerosSorteados[50]
 				}
 				senao
 				{
-					//numeroSorteado = u.sorteia(10, 60)
+					numeroSorteado = u.sorteia(10, 60)
 				}
 
 				
@@ -39,11 +39,11 @@ inteiro vetNumerosSorteados[50]
 		para(incremento =0; incremento < 50; incremento++)
 			{
 				se(incremento % 10 == 0 e incremento != 0 ){
-					escreva(vetNumerosSorteados[incremento], " \n")
+					//escreva(vetNumerosSorteados[incremento], " \n")
 				}
 				senao
 				{
-					escreva(vetNumerosSorteados[incremento], " ")
+					//escreva(vetNumerosSorteados[incremento], " ")
 				}
 			}
 	}
