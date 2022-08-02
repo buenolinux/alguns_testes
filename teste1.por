@@ -52,6 +52,7 @@ inteiro vetNumerosSorteados[51]
 			}
 			*/
 
+		/* Ordenar os dados dentro do vetor com o algoritmo ordenação linear*/
 		para(incremento =0; incremento < 50; incremento++)
 		{
 			para(inteiro i = incremento +1; i <50; i++)
@@ -64,8 +65,23 @@ inteiro vetNumerosSorteados[51]
 				}
 			}
 
-			escreva(vetNumerosSorteados[incremento]," ")
+			//escreva(vetNumerosSorteados[incremento]," ")
 		}	
-		
+		//escreva(" \n", incremento)
+
+			para(incremento =0; incremento < 50; incremento++)
+		{
+			para(inteiro i = 0; i <50; i++)
+			{
+				se(vetNumerosSorteados[incremento] == vetNumerosSorteados[i])
+				{
+					escreva(vetNumerosSorteados[i])
+				}
+				
+			}
+			escreva("\n")
+			//escreva(vetNumerosSorteados[incremento]," ")
+		}	
+		//escreva(" \n", incremento)
 	}
 }
